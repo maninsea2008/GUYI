@@ -2,8 +2,16 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     tools:context="com.gy.guyi.MainActivity" >
+    <item
+        android:title="@string/action_paigua"
+        android:orderInCategory="100"
+        android:id="@+id/action_paigua" />
     <item android:id="@+id/action_settings"
         android:title="@string/action_settings"
-        android:orderInCategory="100"
+        android:orderInCategory="103"
         app:showAsAction="never" />
-</menu>
+    <item
+        android:title="@string/action_exit"
+        android:orderInCategory="104"
+        android:id="@+id/action_exit"/>
+ </menu>
